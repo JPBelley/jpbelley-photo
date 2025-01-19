@@ -1,9 +1,8 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 
-import Heading from "../design-system/headings/heading";
+import Layout from "../components/layout/layout";
 import HeroCarousel from "../components/hero-carousel/hero-carousel";
-// import Hero from "../components/hero/hero";
 import Columns from "../components/columns";
 
 
@@ -16,15 +15,15 @@ const IndexPage: React.FC<PageProps> = () => {
 
 
   return (
-    <main>
+    <Layout>
       {/* Hero */}
       {/* <Hero>JP Belley</Hero> */}
       <HeroCarousel />
 
       {/* Portfolio */}
-      <h2 className="text-center mt-16">Portfolio</h2>
-      <Columns />
-    </main>
+      {/* <h2 className="text-center my-16">Portfolio</h2> */}
+      {/* <Columns /> */}
+    </Layout>
   )
 }
 
