@@ -1,5 +1,5 @@
 ---
-title: Lanscape Collection
+title: Lanscape Collection || Lightroom Presets
 date: 2025-02-03T02:04:57.688Z
 description: Give your photos the charm of a bygone era with the Vintage Film
   Preset Collection, a set of 10 Lightroom presets crafted to capture the
